@@ -41,8 +41,8 @@ public class EditPropertyCommandParserTest {
     @Test
     public void parse_invalidValue_failure() {
         String userInput = "1" + INVALID_PRICE_DESC;
-        assertParseFailure(parser, userInput, "Price must be an integer and should not contain " +
-                "any special characters!");
+        assertParseFailure(parser, userInput, "Price must be an integer and should not contain "
+               + "any special characters!");
     }
 
     @Test
